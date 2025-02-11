@@ -7,7 +7,7 @@ import cookieParser from "cookie-parser";
 import userRoute from "./routes/user.route.js";
 import messageRoute from "./routes/message.route.js";
 import { app, server } from "./SocketIO/server.js";
-
+import { connectDb } from "./config/dbConfig.js";
 dotenv.config();
 
 // middleware
@@ -24,12 +24,7 @@ app.use(
 const PORT = process.env.PORT || 3001;
 const URI = process.env.MONGODB_URI;
 
-try {
-    mongoose.connect(URI);
-    console.log("Connected to MongoDB");
-} catch (error) {
-    console.log(error);
-}
+connectDb()
 
 //routes
 app.use("/api/user", userRoute);
