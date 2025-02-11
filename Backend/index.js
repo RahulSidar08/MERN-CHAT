@@ -32,9 +32,9 @@ app.use("/api/message", messageRoute);
 
 
 // deployment code 
-app.use(express.static(path.join(_dirname,"/frontend/dist")))
+app.use(express.static(path.join(_dirname,"/Frontend/dist")))
 app.get('*', (req,res) => {
-    res.sendFile(path.resolve(_dirname,"frontend","dist","index.html"))
+    res.sendFile(path.resolve(_dirname,"Frontend","dist","index.html"))
 })
 
 server.listen(PORT, () => {
