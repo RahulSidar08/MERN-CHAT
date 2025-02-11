@@ -9,7 +9,7 @@ function useGetAllUsers() {
       setLoading(true);
       try {
         const token = Cookies.get("jwt");
-        const response = await axios.get("http://localhost:5002/api/user/allusers", {
+        const response = await axios.get("https://mern-chat-nfyf.onrender.com/api/user/allusers", {
           withCredentials:true,
           headers: {
             Authorization: `Bearer ${token}`,

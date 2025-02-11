@@ -21,7 +21,7 @@ function Login() {
     };
 
     axios
-      .post("http://localhost:5002/api/user/login", userInfo, {
+      .post("https://mern-chat-nfyf.onrender.com/api/user/login", userInfo, {
         withCredentials: true, // ✅ Allow cookies to be stored
       })
       .then((response) => {

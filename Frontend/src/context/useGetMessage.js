@@ -11,7 +11,7 @@ const useGetMessage = () => {
       if (selectedConversation && selectedConversation._id) {
         try {
           const res = await axios.get(
-            `http://localhost:5002/api/message/get/${selectedConversation._id}`,
+            `https://mern-chat-nfyf.onrender.com/api/message/get/${selectedConversation._id}`,
             {
               withCredentials: true,
             }

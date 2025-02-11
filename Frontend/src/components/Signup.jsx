@@ -29,7 +29,7 @@ function Signup() {
     };
     // console.log(userInfo);
     await axios
-      .post("http://localhost:5002/api/user/signup", userInfo)
+      .post("https://mern-chat-nfyf.onrender.com/api/user/signup", userInfo)
       .then((response) => {
         if (response.data) {
           toast.success("Signup successful");

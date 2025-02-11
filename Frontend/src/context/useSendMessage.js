@@ -8,7 +8,7 @@ const useSendMessage = () => {
     setLoading(true);
     try {
       const res = await axios.post(
-        `http://localhost:5002/api/message/send/${selectedConversation._id}`,
+        `https://mern-chat-nfyf.onrender.com/api/message/send/${selectedConversation._id}`,
         
         { message },{
           withCredentials:true,

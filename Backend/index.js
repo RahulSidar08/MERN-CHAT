@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://localhost:3001", // Change based on frontend URL
+    origin: "https://mern-chat-nfyf.onrender.com", // Change based on frontend URL
     credentials: true, // Allow cookies
   })
 );
