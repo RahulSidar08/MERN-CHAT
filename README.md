@@ -25,14 +25,14 @@ git clone https://github.com/RahulSidar08/mernchat.git
 ## Backend Setup
 
 ```bash
-cd server  
+cd backend  
 npm install  
 npm start 
 ```
 ## Frontend Setup
 
 ```bash
-cd client  
+cd Frontend  
 npm install  
 npm start  
 ```
