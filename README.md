@@ -12,4 +12,4 @@ Real-time Communication: Socket.io
 
 Database: MongoDB (Mongoose ODM)
 
-Deployment: Netlify (Frontend), Render/Heroku (Backend)
+Deployment: Render
