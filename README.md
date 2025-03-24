@@ -20,7 +20,7 @@ Deployment: Render
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/mernchat.git  
+git clone https://github.com/RahulSidar08/mernchat.git  
 ```
 ## Backend Setup
 
