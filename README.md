@@ -13,3 +13,31 @@ Real-time Communication: Socket.io
 Database: MongoDB (Mongoose ODM)
 
 Deployment: Render
+
+
+## Installation & Setup
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/yourusername/mernchat.git  
+```
+## Backend Setup
+
+```bash
+cd server  
+npm install  
+npm start 
+```
+## Frontend Setup
+
+```bash
+cd client  
+npm install  
+npm start  
+```
+🌐 Live Demo
+
+```bash
+https://mern-chat-nfyf.onrender.com/ 
+```
